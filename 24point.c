@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 double operation(double a1, double a2, int b)/*自定义函数，用于进行两个数之间的运算*/
 {
     switch (b)
@@ -85,7 +86,7 @@ int start()
 	else
 		printf("sorry,you are worry!\n");
 	printf("press any key to see all the answers:\n");
-	getch();
+	getchar();
 	printf("the result is:\n");/*输出所有结果*/
 	for (i = 0; i < 4; i++)
         for (j = 0; j < 4; j++)
@@ -134,5 +135,5 @@ int start()
 							}
 					}
 			}
-			getch();
+			getchar();
 }
